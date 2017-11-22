@@ -28,7 +28,10 @@ nav .menu {
   margin-top: 25px;
   text-align: center;
   margin-bottom: 25px;
+}
 
+nav .onglet{
+  margin-top: 40px;
 }
 nav a {
   color: #F8F8FF;
@@ -38,6 +41,7 @@ nav a {
   font-weight: bold;
   font-family: Helvetica; sans-serif;
   text-decoration: none;
+
 }
 nav .icon {
   text-align: center;
@@ -47,8 +51,49 @@ nav .icon i {
   margin-right: 15px;
 }
 
+.menu h1 {
+  font-size: 30px;
+  font-family: Helvetica;
+}
+.menu p {
+  font-size: 15px;
+  font-family: Helvetica;
+  margin-top: 5px;
+}
+
 .main{
   float: left;
   width: 80%;
+}
+.text {
+  background-color: #9ACD32;
+  background: linear-gradient(to right,#9ACD32, white);
 
+}
+.presentation {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.presentation h1 {
+  text-align: left;
+  width: 60%;
+}
+.presentation p {
+  text-align: left;
+  font-family: cursive;
+  font-size: 20px;
+}
+.presentation .info {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 15px;
+  padding-left: 15px;
+  box-shadow: 2px 2px 2px green;
+  background-color: #9ACD32;
+}
+.content {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
 }
