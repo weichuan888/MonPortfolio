@@ -11,11 +11,10 @@ header {
   float: left;
   background-color: #C0C0C0;
   height: 100%;
-
 }
+
 .side img {
   width: 80%;
-  height: 40%;
   text-align: center;
   margin-left: 25px;
   margin-right: 30px;
